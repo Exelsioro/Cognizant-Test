@@ -1,0 +1,6 @@
+D:\Projects\Cognizant Test\CognizantTestAPI\Models\bin\Debug\Models.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\Models\bin\Debug\Models.pdb
+D:\Projects\Cognizant Test\CognizantTestAPI\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Projects\Cognizant Test\CognizantTestAPI\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Projects\Cognizant Test\CognizantTestAPI\Models\obj\Debug\Models.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\Models\obj\Debug\Models.pdb

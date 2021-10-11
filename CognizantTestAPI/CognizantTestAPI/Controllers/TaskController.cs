@@ -1,4 +1,6 @@
-﻿using System;
+﻿using APIService;
+using Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,24 +10,24 @@ namespace CognizantTestAPI.Controllers
 {
     public class TaskController : ApiController
     {
-
+        private ApiService service = new ApiService();
+        
         [HttpGet]
-        public object Get()
+        public IEnumerable<TaskModel> Get()
         {
-            return null;
-        }
-        // GET api/values/5
-        [HttpGet]
-        public object Get(int id)
-        {
-            return null;
+            return service.GetTaskList();
         }
 
-        // POST api/values
+        [HttpGet]
+        public TaskDescriptionAndParams Get(int id)
+        {
+            return service.GetTaskDescriptionAndParams(id);
+        }
+
         [HttpPost]
-        public void Post([FromBody] object body)
+        public void Post([FromBody] CompletedTaskModel body)
         {
-
+            service.SolvePlayerSolution(body);
         }
     }
 }

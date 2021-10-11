@@ -1,4 +1,6 @@
-﻿using System;
+﻿using APIService;
+using Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,10 +11,12 @@ namespace CognizantTestAPI.Controllers
     public class StatisticController : ApiController
     {
 
-        public object Get()
+        private ApiService service = new ApiService();
+
+        public IEnumerable<PlayerStatisticModel> Get()
         {
 
-            return null;
+            return service.GetStatistic();
         }
     }
 }

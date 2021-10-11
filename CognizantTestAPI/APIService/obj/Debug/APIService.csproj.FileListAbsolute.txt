@@ -1,0 +1,14 @@
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\APIService.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\APIService.pdb
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\DataProvider.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\Models.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\EntityFramework.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\DataProvider.pdb
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\DataProvider.dll.config
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\Models.pdb
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\EntityFramework.xml
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\obj\Debug\APIService.csprojAssemblyReference.cache
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\obj\Debug\APIService.csproj.CoreCompileInputs.cache
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\obj\Debug\APIService.csproj.CopyComplete
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\obj\Debug\APIService.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\obj\Debug\APIService.pdb
