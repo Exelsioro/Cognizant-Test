@@ -12,3 +12,5 @@ D:\Projects\Cognizant Test\CognizantTestAPI\APIService\obj\Debug\APIService.cspr
 D:\Projects\Cognizant Test\CognizantTestAPI\APIService\obj\Debug\APIService.csproj.CopyComplete
 D:\Projects\Cognizant Test\CognizantTestAPI\APIService\obj\Debug\APIService.dll
 D:\Projects\Cognizant Test\CognizantTestAPI\APIService\obj\Debug\APIService.pdb
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\FunctionExecutor.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\APIService\bin\Debug\FunctionExecutor.pdb

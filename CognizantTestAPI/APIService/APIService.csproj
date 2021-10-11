@@ -49,6 +49,10 @@
       <Project>{fff63d4a-446e-4627-a61a-419e568fab11}</Project>
       <Name>DataProvider</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FunctionExecutor\FunctionExecutor.csproj">
+      <Project>{911627d8-65f4-4864-bf55-484b32b06e40}</Project>
+      <Name>FunctionExecutor</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{b3ecdf5b-c054-4528-a4e6-f3d476a7d16f}</Project>
       <Name>Models</Name>

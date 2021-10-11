@@ -1,0 +1,6 @@
+D:\Projects\Cognizant Test\CognizantTestAPI\FunctionExecutor\bin\Debug\FunctionExecutor.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\FunctionExecutor\bin\Debug\FunctionExecutor.pdb
+D:\Projects\Cognizant Test\CognizantTestAPI\FunctionExecutor\obj\Debug\FunctionExecutor.csprojAssemblyReference.cache
+D:\Projects\Cognizant Test\CognizantTestAPI\FunctionExecutor\obj\Debug\FunctionExecutor.csproj.CoreCompileInputs.cache
+D:\Projects\Cognizant Test\CognizantTestAPI\FunctionExecutor\obj\Debug\FunctionExecutor.dll
+D:\Projects\Cognizant Test\CognizantTestAPI\FunctionExecutor\obj\Debug\FunctionExecutor.pdb
