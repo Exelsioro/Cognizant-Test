@@ -1,4 +1,4 @@
-.game-component{
+.task-component{
     padding-top : 5%;
     display: flex;
     flex-direction: column;
@@ -6,36 +6,36 @@
     padding-left: 20%;
     padding-right: 20%;
 }
-.game-row{
+.task-row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.game-row label.game-col{
+.task-row label.task-col{
         font-size: 30px;
 }
-.game-col{
+.task-col{
     width: 50%;
     margin: 10px    ;
 }
-.game-row.game-col{
+.task-row.task-col{
     width: 50%;
     margin: 10px    ;
     display: flex;
     flex-direction: column;
 
 }
-.game-row.game-col div{
+.task-row.task-col div{
     width: 100%; 
     display: flex;
     // justify-content: right;
 }
-.game-row.game-col div span.game-col{
+.task-row.task-col div span.task-col{
     width: 95%;
     margin: 0px 0px 0px 5%;
     border: none;
 }
-.game-col.div{
+.task-col.div{
     margin: 0px;
     display: flex;
     justify-content: left;

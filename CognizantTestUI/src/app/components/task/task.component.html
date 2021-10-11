@@ -1,47 +1,47 @@
 
-<div class="game-component">
-    <div class="game-row">
-        <label class="game-col">
+<div class="task-component">
+    <div class="task-row">
+        <label class="task-col">
             Name
         </label>
-        <input required class="game-col"  [(ngModel)]="CompletedTask.Name" type="text">
+        <input required class="task-col"  [(ngModel)]="CompletedTask.Name" type="text">
     </div>
-    <div class="game-row">
-        <label class="game-col">
+    <div class="task-row">
+        <label class="task-col">
             Select task
         </label>
-        <select class="game-col" #TaskSelect (change)='getTaskData(TaskSelect.value)'>
+        <select class="task-col" #TaskSelect (change)='getTaskData(TaskSelect.value)'>
             <option>Select task</option>
             <option *ngFor="let task of taskList"  [value]='task.id' >
                 {{task?.Name}}
               </option>
         </select>
     </div>
-    <div class="game-row">
-        <label class="game-col">
+    <div class="task-row">
+        <label class="task-col">
             Description
         </label>
-        <div  class="game-col description" >
+        <div  class="task-col description" >
             {{taskDescriptionAndParams.taskDescriptipon}}
         </div>
     </div>
-    <div class="game-row">
-        <label class="game-col">
+    <div class="task-row">
+        <label class="task-col">
             Solution code
         </label>
-        <div class="game-col game-row">
-            <div class="game-col div">
+        <div class="task-col task-row">
+            <div class="task-col div">
                 public object TaskSolution({{taskDescriptionAndParams.taskParams}}){{ '{' }}
             </div>
             <div>
-                <span role="textbox"  (input)="updateSolutionString($event)" contenteditable class="game-col"></span>
+                <span role="textbox"  (input)="updateSolutionString($event)" contenteditable class="task-col"></span>
             </div>
-            <div class="game-col div">
+            <div class="task-col div">
                 {{ '}' }}
             </div>
         </div>
     </div>
-    <div class="game-row">
-        <input class="game-col submit-button" value="Send Task" [disabled]="CompletedTask && (CompletedTask.Name.length == 0 || CompletedTask.SelectedTaskId == 0 || CompletedTask.SolutionString.length == 0 )" type="submit" (click)="postTaskSolution()">
+    <div class="task-row">
+        <input class="task-col submit-button" value="Send Task" [disabled]="CompletedTask && (CompletedTask.Name.length == 0 || CompletedTask.SelectedTaskId == 0 || CompletedTask.SolutionString.length == 0 )" type="submit" (click)="postTaskSolution()">
     </div>
 </div>

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GamePageComponent } from './game-page.component';
+import { TaskPageComponent } from './task-page.component';
 
-describe('GamePageComponent', () => {
-  let component: GamePageComponent;
-  let fixture: ComponentFixture<GamePageComponent>;
+describe('TaskPageComponent', () => {
+  let component: TaskPageComponent;
+  let fixture: ComponentFixture<TaskPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GamePageComponent ]
+      declarations: [ TaskPageComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GamePageComponent);
+    fixture = TestBed.createComponent(TaskPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

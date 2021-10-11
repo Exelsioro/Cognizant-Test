@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GamePageComponent } from './pages/game-page/game-page.component';
+import { TaskPageComponent } from './pages/task-page/task-page.component';
 import { StatisticsPageComponent } from './pages/statistics-page/statistics-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TaskComponent } from './components/task/task.component';
@@ -18,7 +18,7 @@ import { ModalService } from './helpers/modalService';
 @NgModule({
   declarations: [
     AppComponent,
-    GamePageComponent,
+    TaskPageComponent,
     StatisticsPageComponent,
     HeaderComponent,
     TaskComponent,
