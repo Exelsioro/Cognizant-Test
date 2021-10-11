@@ -16,9 +16,7 @@
 }
 .game-col{
     width: 50%;
-    display: flex;
-    margin: 10px;
-    align-items: center;
+    margin: 10px    ;
 }
 .game-row.game-col{
     width: 50%;
@@ -30,16 +28,16 @@
 .game-row.game-col div{
     width: 100%; 
     display: flex;
-     justify-content: right;
+    // justify-content: right;
 }
 .game-row.game-col div span.game-col{
     width: 95%;
-    margin: 0px;
+    margin: 0px 0px 0px 5%;
     border: none;
 }
-div .game-col.div{
-    margin-top: 0px;
-    margin-bottom: 0px;
+.game-col.div{
+    margin: 0px;
+    display: flex;
     justify-content: left;
 }
 .submit-button{
@@ -48,6 +46,7 @@ div .game-col.div{
     height: 40px;
     font-size: 25px;
 }
-.game-col.submit-button{
-    display: block;
+.description{
+    display:flex;
+    align-items: center;
 }

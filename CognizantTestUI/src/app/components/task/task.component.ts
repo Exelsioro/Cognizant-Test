@@ -24,7 +24,6 @@ export class TaskComponent implements OnInit {
 
   ngOnInit(): void {
       this.httpClient.getData('task').subscribe((data:any) => {
-        console.log(data)
         this.taskList = data;   
       });
       
@@ -32,7 +31,6 @@ export class TaskComponent implements OnInit {
   public getTaskData(id: string){
     this.CompletedTask.SelectedTaskId = Number(id);
     this.httpClient.getData('task/' + id).subscribe((data:any) => {
-      console.log(data)
       this.taskDescriptionAndParams.taskDescriptipon = data.description;   
       this.taskDescriptionAndParams.taskParams = data.parameters;   
     });
