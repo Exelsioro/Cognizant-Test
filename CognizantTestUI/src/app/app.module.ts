@@ -8,6 +8,12 @@ import { StatisticsPageComponent } from './pages/statistics-page/statistics-page
 import { HeaderComponent } from './components/header/header.component';
 import { TaskComponent } from './components/task/task.component';
 import { StatisticComponent } from './components/statistic/statistic.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { HttpService } from './helpers/HTTPService';
+import { ModalComponent } from './components/modal/modal.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ModalService } from './helpers/modalService';
 
 @NgModule({
   declarations: [
@@ -16,13 +22,20 @@ import { StatisticComponent } from './components/statistic/statistic.component';
     StatisticsPageComponent,
     HeaderComponent,
     TaskComponent,
-    StatisticComponent
+    StatisticComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    FormsModule,
+    NgbModule
   ],
-  providers: [],
+  providers: [
+    HttpService,
+    ModalService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

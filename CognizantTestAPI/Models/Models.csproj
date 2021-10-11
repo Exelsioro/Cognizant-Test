@@ -45,6 +45,7 @@
     <Compile Include="CompletedTaskModel.cs" />
     <Compile Include="PlayerStatisticModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultModel.cs" />
     <Compile Include="TaskDataToCompare.cs" />
     <Compile Include="TaskDescriptionAndParams.cs" />
     <Compile Include="TaskModel.cs" />

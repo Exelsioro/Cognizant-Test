@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from '../../helpers/HTTPService';
 
 @Component({
   selector: 'app-statistic',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StatisticComponent implements OnInit {
 
-  constructor() { }
+  constructor(private httpClient: HttpService) { }
+  statisticList: Array<any> = new Array<any>();
 
   ngOnInit(): void {
+    this.httpClient.getData('Statistic').subscribe((data:any) => {
+      this.statisticList = data;   
+    });
   }
-
 }

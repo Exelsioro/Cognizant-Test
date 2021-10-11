@@ -24,7 +24,7 @@ namespace APIService
         {
             return dataAcces.GetStatistics();
         }
-        public void SolvePlayerSolution(CompletedTaskModel data)
+        public ResultModel SolvePlayerSolution(CompletedTaskModel data)
         {
             FunctionExecutor fe = new FunctionExecutor(new ExecuteLogHandler(Log));
 
@@ -46,6 +46,7 @@ namespace APIService
                 resultModel = new CheckedSolutionModel(data.Name, data.SelectedTaskId, data.SolutionString, false);
             }
             dataAcces.pushCheckedSolution(resultModel);
+            return new ResultModel(userOutput.ToLower().Contains("error") ? userOutput.Split(new string[] { "error" }, StringSplitOptions.None).LastOrDefault() : userOutput, resultModel.isSolvedCrrectly);
         }
 
         private string output;

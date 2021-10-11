@@ -25,9 +25,11 @@ namespace CognizantTestAPI.Controllers
         }
 
         [HttpPost]
-        public void Post([FromBody] CompletedTaskModel body)
+        public ResultModel Post([FromBody] CompletedTaskModel body)
         {
-            service.SolvePlayerSolution(body);
+            var result = new ResultModel();
+            result = service.SolvePlayerSolution(body);
+            return result;
         }
     }
 }

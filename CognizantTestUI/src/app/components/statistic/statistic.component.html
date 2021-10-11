@@ -1,1 +1,14 @@
-<p>statistic works!</p>
+<table class="stats-table">
+    <tr class="stats-table-row table-header">
+        <td class="stats-table-col">Player Name</td>
+        <td class="stats-table-col">Solved Tasks Count</td>
+        <td class="stats-table-col">Solved Tasks Names</td>
+    </tr>
+    <tr class="stats-table-row" *ngFor="let stat of statisticList">
+        <td class="stats-table-col">{{ stat.playerName }}</td>
+        <td class="stats-table-col">{{ stat.countSolved }}</td>
+        <td class="stats-table-col">
+            <tr class="stats-table-row" *ngFor="let task of stat.namesSolved">{{task}}</tr>
+        </td>
+    </tr>
+  </table>
